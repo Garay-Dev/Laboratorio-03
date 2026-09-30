@@ -24,11 +24,11 @@ public class Demo01 {
         Usuario u = new Usuario();
 
         // No colocamos cod_usua porque MySQL lo genera con AUTO_INCREMENT
-        u.setNom_usua("Juan");
-        u.setApe_usua("Gonzales");
-        u.setUsr_usua("correo@gmail.com");
-        u.setCla_usua("ushrjso13");
-        u.setFna_usua(LocalDate.of(2000, 5, 15));
+        u.setNom_usua("Raul");
+        u.setApe_usua("Padilla");
+        u.setUsr_usua("raulpadilla123@hotmail.com");
+        u.setCla_usua("raul35670");
+        u.setFna_usua(LocalDate.of(1998, 3, 17));
         u.setIdtipo(2);
         u.setEst_usua(1);
 
