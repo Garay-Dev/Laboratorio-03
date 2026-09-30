@@ -1,4 +1,4 @@
-package com.leonardo.springboot.demo.app;
+package app;
 
 import java.time.LocalDate;
 
@@ -24,10 +24,10 @@ public class Demo01 {
         Usuario u = new Usuario();
 
         // No colocamos cod_usua porque MySQL lo genera con AUTO_INCREMENT
-        u.setNom_usua("Carlos");
-        u.setApe_usua("Ramirez");
-        u.setUsr_usua("carlos01@gmail.com");
-        u.setCla_usua("123456");
+        u.setNom_usua("Juan");
+        u.setApe_usua("Gonzales");
+        u.setUsr_usua("correo@gmail.com");
+        u.setCla_usua("ushrjso13");
         u.setFna_usua(LocalDate.of(2000, 5, 15));
         u.setIdtipo(2);
         u.setEst_usua(1);
